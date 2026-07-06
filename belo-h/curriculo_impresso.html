@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo - Karlus Idelgardes Gomes Vera</title>
+    <style>
+        /* Base e Estilos para Impressão */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background: #fff;
+        }
+        h1, h2, h3 { 
+            color: #112240; 
+            margin-bottom: 10px; 
+        }
+        h1 { 
+            border-bottom: 2px solid #112240; 
+            padding-bottom: 10px; 
+            font-size: 24pt;
+        }
+        h2 { 
+            border-bottom: 1px solid #ccc; 
+            padding-bottom: 5px; 
+            margin-top: 30px; 
+            font-size: 16pt;
+        }
+        .contact-info { 
+            margin-bottom: 20px; 
+            font-size: 10pt; 
+        }
+        .contact-info p { 
+            margin: 4px 0; 
+        }
+        .section { 
+            margin-bottom: 25px; 
+        }
+        .job { 
+            margin-bottom: 20px; 
+        }
+        .job-header { 
+            display: flex; 
+            justify-content: space-between; 
+            font-weight: bold; 
+            font-size: 11pt;
+            color: #112240;
+        }
+        .job-company { 
+            color: #555; 
+            font-style: italic; 
+            margin-bottom: 5px;
+        }
+        ul { 
+            margin-top: 5px; 
+            padding-left: 20px; 
+        }
+        li { 
+            margin-bottom: 5px; 
+            font-size: 10.5pt;
+        }
+        p {
+            font-size: 10.5pt;
+        }
+        
+        .print-btn {
+            display: block;
+            width: 200px;
+            margin: 0 auto 30px;
+            padding: 10px 20px;
+            background-color: #F97316;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+            font-size: 12pt;
+        }
+        
+        .print-btn:hover {
+            background-color: #ea580c;
+        }
+
+        /* Ocultar botão na hora de imprimir */
+        @media print {
+            body { 
+                padding: 0; 
+                max-width: 100%; 
+            }
+            .print-btn { 
+                display: none; 
+            }
+            @page { 
+                margin: 1.5cm; 
+            }
+            a { 
+                text-decoration: none; 
+                color: #000; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <button class="print-btn" onclick="window.print()">🖨️ Imprimir Currículo</button>
+
+    <header>
+        <h1>Karlus Idelgardes Gomes Vera</h1>
+        <div class="contact-info">
+            <p><strong>Motorista Profissional</strong> | CNH Categoria AD | Disponibilidade Imediata</p>
+            <p>📞 WhatsApp: (89) 99997-6157 | ✉️ E-mail: karlusidelgardes@gmail.com | 📍 Belo Horizonte — MG</p>
+        </div>
+    </header>
+
+    <div class="section">
+        <h2>Perfil Profissional</h2>
+        <p>Profissional com mais de 6 anos de experiência em atividades operacionais e serviços externos, atuando com destaque nos setores de construção civil, energia elétrica e transporte. Especialista em direção defensiva e segura, planejamento estratégico de rotas, transporte de equipes, materiais pesados e equipamentos sensíveis. Perfil altamente responsável, disciplinado e organizado, priorizando a pontualidade, rigorosa conservação e manutenção preventiva dos veículos e respeito absoluto às normas de trânsito.</p>
+    </div>
+
+    <div class="section">
+        <h2>Experiência Profissional</h2>
+        
+        <div class="job">
+            <div class="job-header">
+                <span>DPL Construções Ltda.</span>
+                <span>2019 — 2025</span>
+            </div>
+            <div class="job-company">Encarregado de Poda / Motorista</div>
+            <ul>
+                <li>Transporte logístico diário de equipes operacionais e equipamentos com índice zero de sinistros.</li>
+                <li>Coordenação e liderança de equipes em frentes de trabalho do setor de energia/infraestrutura.</li>
+                <li>Inspeção diária detalhada (checklist), manutenção de primeiro nível dos veículos e zelo contínuo pela conservação da frota.</li>
+                <li>Planejamento eficiente de rotas urbanas e rurais para otimização de tempo e combustível.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span>Energy Instalações Elétricas Ltda.</span>
+                <span>2018 — 2019</span>
+            </div>
+            <div class="job-company">Eletricista (Atuação com Serviços Externos e Condução)</div>
+            <ul>
+                <li>Condução de veículos utilitários em rotas diversas seguindo rigorosos procedimentos técnicos para atendimento emergencial e programado em campo.</li>
+                <li>Cumprimento estrito de prazos contratuais de atendimento (SLAs) com foco total em segurança operacional.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span>Construtora Vale do Guaribas Ltda.</span>
+                <span>2014</span>
+            </div>
+            <div class="job-company">Motorista</div>
+            <ul>
+                <li>Transporte e distribuição seguros de materiais pesados de construção, ferramentas industriais e equipes técnicas.</li>
+                <li>Organização logística interna dos materiais para evitar avarias e conservação preventiva ativa do veículo.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Formação e Qualificações</h2>
+        <p style="margin-bottom: 10px;"><strong>Educação:</strong> Ensino Médio Completo</p>
+        <p style="margin-bottom: 5px;"><strong>Cursos Especializados:</strong></p>
+        <ul>
+            <li>Curso de Transporte de Passageiros</li>
+            <li>Curso de Transporte Escolar</li>
+            <li>Curso MOPP (Movimentação de Produtos Perigosos)</li>
+            <li>Excelência e Qualidade no Atendimento ao Cliente</li>
+            <li>Treinamento Desenvolvendo Equipes</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Diferenciais e Disponibilidade</h2>
+        <ul>
+            <li>Perfil polivalente: Une as habilidades de condução profissional ao conhecimento técnico operacional de campo.</li>
+            <li>Exímio zelo pelo patrimônio da empresa através de manutenção preventiva contínua, gerando economia.</li>
+            <li>Prontidão para operar em qualquer região de Minas Gerais (MG), com total disponibilidade para viagens curtas/médias/longas e mudanças.</li>
+        </ul>
+    </div>
+
+</body>
+</html>
